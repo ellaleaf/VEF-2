@@ -16,3 +16,4 @@ orv hard copy bækurna, a book for young adults,
 
 [all of blackbox art](https://aminoapps.com/c/omniscient_reader_amino/page/shared-folder/blackbox-fanart/G5bJ_N87CVwSLode1xlpNNnjaWVLwL47V7l2SB)
 
+[orv wiki](https://omniscient-readers-viewpoint.fandom.com/wiki/Omniscient_Reader's_Viewpoint)
