@@ -1,7 +1,7 @@
 # VEF-2
 
 ## stuttur texti
-orv hard copy bækurna, a book for young adults,
+orv hard copy bækurna, a book for young adults, - OK
 
 
 ## links
