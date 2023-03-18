@@ -20,4 +20,6 @@ orv hard copy bækurna, a book for young adults, - OK
 
 [pics](https://drive.google.com/drive/folders/1hzKf6sJQzUGG7G8-cPVfM57voJknDnde)
 
+[sing shong](https://omniscient-readers-viewpoint.fandom.com/wiki/Sing_Shong)
 
+[The World After the Fall](https://the-world-after-the-fall.fandom.com/wiki/The_World_After_the_Fall_Webnovel)
