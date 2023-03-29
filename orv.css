@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+html {
+    scroll-behavior: smooth;
+}
+
+.a {color: rgb(0,0,0)}
+.b {color: rgb(218, 213, 213)}
+.c {color: rgb(58, 58, 58)}
+.d {color: rgb(78, 78, 78)}
+.e {color: rgb(107, 107, 107)}
+
+body {
+    margin: auto;
+    padding: 0;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    color: rgb(218, 213, 213); 
+    background-color: rgb(58, 58, 58);
+    width: auto;
+  }
+
+
+
+main{
+    background-color: rgba(0, 0, 0);
+    padding: 20px;
+    padding-bottom: 70px;
+    width: 100%;
+    margin: 0 auto;
+    border-color: rgb(218, 213, 213);
+    border: 2px solid rgb(218, 213, 213);
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+ }
+/* 
+.main-menu {
+    display: flex;
+    margin: auto 0;
+    padding: 0;
+}
+
+
+
+.main-menu > li {
+    line-height: 50px;
+    padding: 0 2em;
+    margin: 20px;
+    font-size: 20px;
+    border: 2px solid rgb(218, 213, 213);
+    border-radius: 10px;
+    background-color: black;
+    text-decoration: none;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  } */
+
+
+.dima{
+  display: flex;
+  padding: 0;
+}
+
+  .dima .mid{
+    margin: 20px;
+    display: inline;
+  }
+
+  .dima .right{
+    margin: 20px;
+    float: right;
+  }
