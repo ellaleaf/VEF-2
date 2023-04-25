@@ -1,0 +1,568 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
+
+
+/* basic 
+-------------------------------------*/
+
+* {
+    box-sizing: border-box;
+  }
+
+  
+html {
+    scroll-behavior: smooth;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.a {color: rgb(0,0,0)}
+.b {color: rgb(218, 213, 213)}
+.c {color: rgb(58, 58, 58)}
+.d {color: rgb(78, 78, 78)}
+.e {color: rgb(107, 107, 107)}
+
+body {
+    margin: auto;
+    padding: 0;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    color: rgb(218, 213, 213); 
+    background-color: rgb(58, 58, 58);
+    width: auto;
+  }
+
+  h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  } 
+
+  hr{
+    margin: 0 30px;
+  }
+
+main{
+    background-color: rgba(0, 0, 0);
+    padding: 20px;
+    padding-bottom: 70px;
+    width: 100%;
+    margin: 0 auto;
+    border-color: rgb(218, 213, 213);
+    border: 0.2px solid rgb(218, 213, 213);
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+ }
+
+
+.dima{
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+
+.dima .mid{
+  margin: 20px;
+  display: inline;
+}
+
+.dima .right{
+  margin: 20px;
+  float: right;
+}
+
+
+/* menu 
+------------------------------------------------*/
+
+
+.main-menu {
+  display: flex;
+  margin: auto 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.main-menu > li {
+  line-height: 50px;
+  padding: 0 2em;
+  margin: 20px;  
+  font-size: 20px;
+  border: 2px solid rgb(218, 213, 213);
+  border-radius: 10px;
+  background-color: black;
+  text-decoration: none;
+}
+
+.topnav {
+  display: none;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+.topnav .icon {
+  display: none;
+}
+
+
+
+/* logo */
+.logo{
+  width: 10%;
+  height: auto;
+}
+
+
+/* hamburger menu */
+
+.menuInput {
+  display: none
+}
+
+.menuLabel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 2.5em;
+  height: 1.6em;
+  color: #000000;
+  font-size: 1.5em;
+  text-align: left;
+  padding: .5em;
+  transition: all .4s ease;
+  z-index: 999
+}
+
+.menuInput:checked ~ .topmenu {
+  position: fixed;
+  top: 3em;
+  right: 0;
+  z-index: 980;
+  transition: all .5s ease
+}
+
+.navpad{
+  padding: 30px;
+}
+
+
+.topmenu {
+  display: block;
+  position: fixed;
+  top: 3em;
+  right: -15em;
+  z-index: 980;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  transition: all .5s ease;
+  background-color: rgb(58, 58, 58)
+}
+
+.topmenu a {
+  display: block;
+  color: rgb(218, 213, 213);
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 1em 2em 0 2em;
+  margin: 0;
+  letter-spacing: 2px
+}
+
+.topmenu a:last-child {
+  padding: 1em 2em
+}
+
+
+
+
+/* info page 
+--------------------------------*/
+
+.infog {
+  display: grid; 
+  grid-template-columns: auto; 
+  grid-template-rows: auto; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "pic1"
+    "text1"
+    "pic2"
+    "text2"; 
+    margin-top: 30px;
+}
+.pic1 { 
+  grid-area: pic1; 
+}
+.text1 { 
+  grid-area: text1;
+  font-size: x-large; 
+}
+.pic2 { 
+  grid-area: pic2; 
+}
+.text2 { 
+  grid-area: text2; 
+  font-size: x-large; 
+}
+
+
+
+
+
+
+
+
+/*contact page
+--------------------------------*/
+
+
+.gridcon {  
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "phone"
+    "email"
+    "maps";
+  height: 300px;
+  margin-bottom: 200px;
+}
+
+.phone { 
+  grid-area: phone; 
+  height: 100px;
+  font-size: x-large;
+}
+
+.email { 
+  grid-area: email; 
+  height: 100px;
+  font-size: x-large;
+}
+
+.maps {
+  grid-area: maps;
+}
+
+.gluggi {
+  width:18em; /*~300px */ 
+  height:10.5em; /*168px;*/ 
+}
+
+
+.contactf{
+  border-radius: 5px;
+  background-color: rgb(107, 107, 107);
+  padding: 20px;
+  color: black;
+}
+
+input[type=text],input[type=button],input[type=submit],input[type=email], .pnext, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+  resize: vertical;
+  font-size: large;
+  background-color: rgb(218, 213, 213);
+  text-decoration: none;
+}
+
+input[type=button],input[type=submit], .pnext{
+  width: auto;
+  margin-top: 20px;
+  color: black;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-size: x-large;
+}
+
+
+
+
+
+/* buy popup 
+--------------------------------------------*/
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: rgb(218, 213, 213);
+  border: 2px solid rgb(218, 213, 213);
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 45px auto;
+  padding: 20px;
+  background: rgb(107, 107, 107);
+  border-radius: 5px;
+  width: 100%;
+  position: relative;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .content {
+  max-height: 30%;
+}
+
+
+
+.proc {  
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+  gap: 0px 0px;
+  overflow: scroll;
+  grid-template-areas:
+    "country"
+    "name"
+    "email"
+    "address"
+    "postalcode"
+    "city"
+    "phone"
+    "next";
+    width: auto;
+    height: 500px;
+}
+
+
+.phone { 
+  grid-area: phone;
+  padding: 0 10px; 
+}
+
+.postalcode { 
+  grid-area: postalcode; 
+  padding: 0 10px;
+}
+
+.city { 
+  grid-area: city; 
+  padding: 0 10px;
+}
+
+.address { 
+  grid-area: address; 
+  padding: 0 10px;
+}
+
+.email { 
+  grid-area: email; 
+  padding: 0 10px;
+}
+
+.name { 
+  grid-area: name; 
+  padding: 0 10px;
+}
+
+.country { 
+  grid-area: country; 
+  padding: 0 10px;
+}
+
+
+.next{
+  grid-area: next;
+  padding: 20px 0;
+  margin-top: 10px;
+}
+
+
+
+
+
+/* chatbox popup 
+--------------------------------------------*/
+
+.overlaychat{
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlaychat:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popupchat {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background: rgb(107, 107, 107);
+  border-radius: 5px;
+  padding: 10px;
+}
+.popupchat .contentc {
+  max-height: 30%;
+}
+
+.popupchat .close{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+
+
+
+
+/* product page 
+----------------------------------------------*/
+
+
+
+.productgrid {  
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  gap: 30px 0px;
+  grid-template-areas:
+    "photogal"
+    "descbuy"
+    "descpro";
+    margin-top: 30px;
+}
+
+
+.photogal { 
+  grid-area: photogal; 
+}
+
+.descbuy { 
+  grid-area: descbuy; 
+  font-size: x-large;
+}
+
+.descpro { 
+  grid-area: descpro; 
+  font-size: x-large;
+}
+
+
+
+/* Accordion */
+.accordion {
+  background: rgb(0, 0, 0);
+  border: 1px solid rgb(107, 107, 107);
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: larger;
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.accordionDrop {
+  padding: 0px 30px;
+  font-size: larger;
+}
+
+::-webkit-details-marker { 
+  display: none;
+}
+
+
+
+
+/* slideshow */
+
+.slideset1{
+  height: 10em;
+  position: relative;
+}
+
+.slideset1 > * {
+  visibility: hidden;
+  position: absolute;
+  top: auto;
+  left: auto;
+  animation: 16s autoplay1 infinite;
+}
+
+
+@keyframes autoplay1{
+  0% { visibility: visible;}
+  33.33% {visibility: hidden;}
+}
+
+
+.slideset1 > *:nth-child(1) {animation-delay: 0s;}
+.slideset1 > *:nth-child(2) {animation-delay: 4s;}
+.slideset1 > *:nth-child(3) {animation-delay: 8s;}
+.slideset1 > *:nth-child(4) {animation-delay: 12s;}
+
+
+.slides{
+  width: 280px;
+  height: 200px;
+}
+
+
