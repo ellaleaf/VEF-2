@@ -3,6 +3,11 @@
 ## stuttur texti
 orv hard copy bækurna, a book for young adults, - OK
 
+## verkefni 7 Undirbúningur
+def link á produtið
+leik fyrir úrið
+animation pref train
+
 
 ## links
 
